@@ -1,10 +1,10 @@
- {
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Poppins; Trirong; Sofia
+  font-family: Poppins; Trirong: Sofia
 }
 
 h1,
@@ -15,7 +15,7 @@ h5,
 h6,
 p,
 ul {
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 img {
@@ -25,6 +25,13 @@ img {
 .search {
   background-color: rgb(66, 66, 66);
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 25px;
 }
 
 h1,
@@ -32,7 +39,9 @@ form
  {
   text-align: center;   
 }
-
+form button {
+  color: white;
+}
 
 img {
   display: block;
@@ -68,7 +77,8 @@ img {
 }
 
 .card a {
-  color: yellow;
+  color: rgb(219, 219, 14);
+  text-decoration: underline;
 }
 
 input, button {
